@@ -1,0 +1,4 @@
+# Release branch ignore
+*
+!README.md
+!.gitignore
