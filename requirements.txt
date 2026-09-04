@@ -1,0 +1,9 @@
+customtkinter>=6.0
+yt-dlp>=2026.8.19
+websocket-client>=1.9   # режим «через браузер» (CDP)
+curl_cffi>=0.16         # прямая загрузка Playerjs-embed
+pystray>=0.19.5         # системный трей и уведомления Windows
+
+# только для разработки/сборки:
+pillow>=12.0        # генерация иконки (make_icon.py)
+pyinstaller>=6.22   # сборка .exe (build.bat)

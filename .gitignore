@@ -1,0 +1,30 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# PyInstaller / build artifacts
+build/
+dist/
+*.manifest
+
+# Vendor binaries
+vendor/
+*.exe
+!assets/*.ico
+
+# Test outputs and logs
+test_out*/
+*.log
+crash.log
+config.json
+
+# IDE
+.idea/
+.vscode/
